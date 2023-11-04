@@ -1,0 +1,108 @@
+.form_container{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 40px;
+}
+
+.form_container>input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #F8F8FF;
+}
+
+.form_container>input::-webkit-outer-spin-button,
+.form_container>input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form_container>button{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+    .form_container>input{
+        width: 200px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid black;
+        outline: none;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        background-color: #F8F8FF;
+    }
+    .form_container>button{
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 13px;
+        font-weight: 500;
+        /* text-wrap: nowrap; */
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:400px) {
+    .form_container{
+        width: 80%;
+        height: 100px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        margin-top: 50px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px 20px;
+    }
+    .form_container>input{
+        width: 150px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid black;
+        outline: none;
+        padding-left: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        background-color: #F8F8FF;
+    }
+    .form_container>button{
+        width: 70px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 13px;
+        font-weight: 500;
+        /* text-wrap: nowrap; */
+        cursor: pointer;
+    }
+}
